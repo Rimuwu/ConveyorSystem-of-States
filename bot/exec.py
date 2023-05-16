@@ -5,7 +5,7 @@ import asyncio
 from telebot.async_telebot import AsyncTeleBot
 from telebot.asyncio_storage import StateMemoryStorage
 
-bot = AsyncTeleBot('5451541586:AAG-_RxEiyoJdKHNQPAa6Gls5FCrZsrf_ks', 
+bot = AsyncTeleBot('TOKEN', 
                    state_storage=StateMemoryStorage())
 bot.enable_saving_states()
 

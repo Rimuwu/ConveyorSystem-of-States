@@ -34,8 +34,9 @@
 Для отмены состояния напиши /cancel или нажми кнопку отмены
 - /pages - ChoosePagesState выбор опции по страницам
 - /options - ChooseOptionState выбор опции но без страниц (более лёгкий)
-- /int - ChooseIntState ввод числа\n/str - ChooseStringState вводстроки
+- /int - ChooseIntState ввод числа
+- /str - ChooseStringState ввод строки
 - /bool - ChooseConfirmState да / нет
-- /del_12 - ChooseCustomState пример кастомного обработчика\
+- /del_12 - ChooseCustomState пример кастомного обработчика
 - ---------------
 - /css - ChooseStepState получение большого количества данных, с помощью малого количества кода
